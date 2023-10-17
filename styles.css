@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+
+body{
+    background-color: #6F61C0;
+}
+
+
+
+.gameOver{
+    background-color: red;
+    opacity: 0.8;
+  }
+
+.level-title{
+    margin:5%;
+    font-size:3rem;
+    font-family: 'Press Start 2P', cursive;
+    color:#D5FFE4;
+}
+
+.c1{
+    background-color:#C23373;
+}
+.c2{
+    background-color:#8BE8E5;
+}
+.c3{
+    background-color: #F0B86E;
+}
+.c4{
+    background-color: #ED7B7B;
+}
+
+
+.btn{
+    margin:25px;
+    height:200px;
+    width:200px;
+    border:10px solid black;
+    border-radius:20%;
+    display:inline-block;
+}
+
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
